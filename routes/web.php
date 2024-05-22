@@ -26,6 +26,14 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::view('geografia', 'geografia')
+    ->middleware(['auth'])
+    ->name('geografia');
+
+Route::view('simondice', 'simondice')
+    ->middleware(['auth'])
+    ->name('simondice');
+
 Route::resource('students', StudentController::class);
-    
-require __DIR__.'/auth.php';    
+
+require __DIR__ . '/auth.php';

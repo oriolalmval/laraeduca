@@ -26,7 +26,7 @@
             </div>
 
             <!-- Contenido desplegable -->
-            <div class="dropdown-content hidden bg-black border-2 border-black p-3 mt-3 w-[203.5vh] h-[50vh]">
+            <div class="dropdown-content hidden bg-black border-2 border-black p-3 mt-3 ">
                 <!-- Contenido del dropdown -->
                 <p class="text-white text-center">HOLA MUNDO</p>
             </div>
