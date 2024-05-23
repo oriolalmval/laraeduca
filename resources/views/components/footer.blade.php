@@ -1,4 +1,4 @@
-<footer class="flex bg-gray-400 justify-around p-2  mt-24 py-3 items-center">
+<footer class="flex bg-gray-400 justify-around p-2 py-3 items-center">
         <svg class="w-1/3" version="1.0" xmlns="http://www.w3.org/2000/svg" width="300" height="80"
         viewBox="0 0 637.000000 128.000000" preserveAspectRatio="xMidYMid meet">
         <metadata>

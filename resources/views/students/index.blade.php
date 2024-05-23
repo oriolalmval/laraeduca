@@ -2,7 +2,7 @@
     <section class="flex flex-col m-10">
         <div class="flex mx-auto my-5">
             <a href="{{ route('students.create') }}"
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create Student</a>
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create Student</a>
         </div>
 
         <table class="border border-black">
