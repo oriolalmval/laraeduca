@@ -1,8 +1,12 @@
 <x-app-layout>
     <section class="flex flex-col m-10">
-        <div class="flex mx-auto my-5">
-            <a href="{{ route('students.create') }}"
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create Student</a>
+        <div class="flex gap-2 items-center p-5">
+            <h1>CREACIÓN DE ESTUDIANTES</h1>
+            <a href="{{ route('students.create') }}" class="border-2 border-black rounded-xl bg-blue-300 hover:bg-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>                  
+            </a>
         </div>
 
         <table class="border border-black">
