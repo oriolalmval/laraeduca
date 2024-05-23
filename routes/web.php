@@ -44,4 +44,5 @@ Route::view('italia-quiz', 'italia-quiz')
 
 Route::resource('students', StudentController::class);
 
+
 require __DIR__ . '/auth.php';
